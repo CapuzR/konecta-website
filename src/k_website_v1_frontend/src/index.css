@@ -1,0 +1,19 @@
+#root {
+  background-color: #0A0118;
+  background-image: url(/src/k_website_v1_frontend/assets/background.jpg);
+}
+
+.rotating-logo {
+  animation: rotation infinite 1s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

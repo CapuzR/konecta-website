@@ -1,0 +1,93 @@
+{
+    "home" : {
+        "appBar" : {
+            "menu" : [
+                {
+                    "name": "Nosotros",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "name": "Funcionalidades",
+                    "link": "https://"
+                },
+                {
+                    "name": "Cómo funciona",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "name": "Reviews",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "name": "FAQ",
+                    "link": "https://www.google.com"
+                }
+            ],
+            "buttons": {
+                "login": "Iniciar",
+                "signup": "Registrarse"
+            }
+        },
+        "banner" : {
+            "title" : "Unificamos tus eventos entre aplicaciones",
+            "subtitle" : "Gestión de eventos descentralizados",
+            "description" : "Protocolo creado para integrar tus dApps favoritas y que unifiques tus eventos y calendarios en un lugar seguro, controlado por una DAO. Comenzamos con nuestros propios proyectos, pronto estrenará nuestra aplicación descentralizada para conectar creadores, terapistas, abogados, instructores y mucho más.",
+            "buttons" : {
+                "primary" : "Applica temprano",
+                "secondary" : "Entra en contacto"
+            }
+        },
+        "about" : {
+            "title" : "En tu control, asegurado por la comunidad",
+            "subtitle" : "Decentralizando 1 calendario a la vez",
+            "description" : "Protocolo creado para integrar tus dApps favoritas y que unifiques tus eventos y calendarios en un lugar seguro, controlado por una DAO. Comenzamos con nuestros propios proyectos, pronto estrenará nuestra aplicación descentralizada para conectar creadores, terapistas, abogados, instructores y mucho más.",
+            "cards" : [
+                {
+                    "title": "Calendario personal",
+                    "description": "Plan your week according to your interests.  Our algorithm matches your selected day and time slot with relevant content creators."
+                },
+                {
+                    "title": "Muchas aplicaciones, mismo calendario",
+                    "description": "Imagina ingresar a un Web3 GCal, Konecta webapp, DSCVR y otras de tus favoritas, y poder ver siempre tus eventos y detalles."
+                },
+                {
+                    "title": "Asegurado por la comunidad",
+                    "description": "Tu data está a salvo. Konecta DAO, a la cual perteneces, será el guardián que controle y proteja tu data."
+                }
+            ]
+        },
+        "prefooter" : {
+            "title" : "Empezando con Konecta",
+            "subtitle" : "Comienza tu viaje con nosotros",
+            "description" : "Aprende todo lo que necesitas, desde principiante hasta experto.",
+            "buttons" : {
+                "primary" : "Applica temprano",
+                "secondary" : "Entra en contacto"
+            }
+        },
+        "footer" : {
+            "menu" : [
+                {
+                    "name": "Nosotros",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "name": "Funcionalidades",
+                    "link": "https://"
+                },
+                {
+                    "name": "Cómo funciona",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "name": "Reviews",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "name": "FAQ",
+                    "link": "https://www.google.com"
+                }
+            ]
+        }
+    }
+}

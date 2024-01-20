@@ -1,0 +1,15 @@
+.cntnt-video-grande {
+    height: 502px;
+    position: relative;
+    width: 786px;
+  }
+  
+  .cntnt-video-grande .rectangle {
+    height: 532px;
+    left: -15px;
+    object-fit: cover;
+    position: absolute;
+    top: -5px;
+    width: 816px;
+  }
+  

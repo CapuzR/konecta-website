@@ -1,0 +1,30 @@
+.frame {
+    align-items: center;
+    border-radius: 12px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 14px 20px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.67) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: var(--landing-desktop-1728-header-font-family);
+    font-size: var(--landing-desktop-1728-header-font-size);
+    font-style: var(--landing-desktop-1728-header-font-style);
+    font-weight: var(--landing-desktop-1728-header-font-weight);
+    letter-spacing: var(--landing-desktop-1728-header-letter-spacing);
+    line-height: var(--landing-desktop-1728-header-line-height);
+    margin-top: -1.09px;
+    position: relative;
+    color: transparent;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  

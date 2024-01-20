@@ -1,0 +1,81 @@
+{
+    "home" : {
+        "appBar" : {
+            "menu" : [
+                {
+                    "name": "Webapp",
+                    "link": "#webapp"
+                },
+                {
+                    "name": "About Us",
+                    "link": "#about"
+                }
+            ],
+            "buttons": {
+                "login": "Login",
+                "signup": "Sign Up"
+            }
+        },
+        "banner" : {
+            "title" : "DAO unifying your events cross dApps",
+            "subtitle" : "Decentralized event management",
+            "description" : "Protocol on-boarding dApps to unify users calendars in one protocol, owned and controlled by DAO. Starting by our own products, we have a calendar centered dApp to connect with creators, educators, artists, therapists, lawyers, lecturers and much more.",
+            "buttons" : {
+                "primary" : "Apply early",
+                "secondary" : "Check our socials"
+            }
+        },
+        "about" : {
+            "title" : "In your control, secured by the community",
+            "subtitle" : "Decentralizing 1 calendar at a time",
+            "description" : "Protocol on-boarding dApps to unify users calendars in one protocol, owned and controlled by DAO. Starting by our own products, we have a calendar centered dApp to connect with creators, educators, artists, therapists, lawyers, lecturers and much more.",
+            "cards" : [
+                {
+                    "title": "Personal calendar",
+                    "description": "Imagine using your personal calendar in multiple applications without any hazzle."
+                },
+                {
+                    "title": "Many dApps, 1 calendar",
+                    "description": "Imagine Konecta Webapp, a Web3 GCal, DSCVR and your favorite dApps, all with your events, they are everywhere."
+                },
+                {
+                    "title": "Secured by the community",
+                    "description": "Your data is safe. Konecta DAO, the one you belong to, will be the gatekeeper that control and protect your data."
+                }
+            ]
+        },
+        "prefooter" : {
+            "title" : "Getting started",
+            "subtitle" : "Start your Konecta journey",
+            "description" : "Learn everything you need to know, from beginner to master.",
+            "buttons" : {
+                "primary" : "Apply early",
+                "secondary" : "Check our socials"
+            }
+        },
+        "footer" : {
+            "menu" : [
+                {
+                    "name": "About Us",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "name": "Features",
+                    "link": "https://"
+                },
+                {
+                    "name": "How It Works",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "name": "Reviews",
+                    "link": "https://www.google.com"
+                },
+                {
+                    "name": "FAQ",
+                    "link": "https://www.google.com"
+                }
+            ]
+        }
+    }
+}

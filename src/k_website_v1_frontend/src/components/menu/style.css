@@ -1,0 +1,40 @@
+.menu-screen {
+    align-items: flex-start;
+    background-color: #a7b4cd0d;
+    border: 1px solid;
+    border-color: #9b96b00d;
+    border-radius: 27px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 10px;
+    position: relative;
+    margin: 0px;
+  }
+
+  .plain-menu-screen {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 10px;
+    position: relative;
+    margin: 0px;
+  }
+  
+  .menu-screen .menu-instance {
+    flex: 0 0 auto !important;
+  }
+  
+  .menu-screen .design-component-instance-node {
+    padding: 10px 20px !important;
+  }
+  
+  .menu-screen .menu-2 {
+    font-family: var(--landing-desktop-1728-header-font-family) !important;
+    font-size: var(--landing-desktop-1728-header-font-size) !important;
+    font-style: var(--landing-desktop-1728-header-font-style) !important;
+    font-weight: var(--landing-desktop-1728-header-font-weight) !important;
+    letter-spacing: var(--landing-desktop-1728-header-letter-spacing) !important;
+    line-height: var(--landing-desktop-1728-header-line-height) !important;
+  }
