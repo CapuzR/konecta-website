@@ -13,7 +13,9 @@ export const Prefooter = () => {
 
     return (
         <Grid container justifyContent="center" spacing={0} sx={{ padding: "0vw 7vw 4vw 7vw" }}>
-            <Line />
+            <Grid item container xs={12} sx={{ margin: "150px 0px 150px 0px" }}>
+                <Line />
+            </Grid>
             <Grid item xs={6} container spacing={2}>
                 <Grid item container xs={12} justifyContent="left" alignItems="center">
                     <Typography text={data.title} size="small" color="primary" />

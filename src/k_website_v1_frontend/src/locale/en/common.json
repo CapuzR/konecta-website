@@ -3,44 +3,77 @@
         "appBar" : {
             "menu" : [
                 {
-                    "name": "Webapp",
-                    "link": "#webapp"
+                    "name": "About Us",
+                    "link": "#about",
+                    "status": "active",
+                    "target": "_self"
                 },
                 {
-                    "name": "About Us",
-                    "link": "#about"
+                    "name": "Roadmap",
+                    "link": "#roadmap",
+                    "status": "inactive",
+                    "target": "_self"
+                },
+                {
+                    "name": "Team",
+                    "link": "#team",
+                    "status": "active",
+                    "target": "_self"
+                },
+                {
+                    "name": "FAQ",
+                    "link": "https://chatgpt.com/g/g-S0vONPiGL-kami",
+                    "status": "active",
+                    "target": "_blank"
                 }
             ],
             "buttons": {
                 "login": "Login",
-                "signup": "Sign Up"
+                "signup": "Sign Up",
+                "pre": {
+                    "name": "Pre-Register",
+                    "link": "https://pre.konecta.one",
+                    "target": "_blank"
+                }
             }
         },
         "banner" : {
-            "title" : "DAO unifying your events cross dApps",
-            "subtitle" : "Decentralized event management",
-            "description" : "Protocol on-boarding dApps to unify users calendars in one protocol, owned and controlled by DAO. Starting by our own products, we have a calendar centered dApp to connect with creators, educators, artists, therapists, lawyers, lecturers and much more.",
+            "title" : "OFFER AND REQUEST",
+            "subtitle" : "Services that matters to you",
+            "description" : "Find out what's possible with Konecta! Connect with creators, educators, artists, therapists, lawyers, lecturers and much more.",
             "buttons" : {
                 "primary" : "Apply early",
                 "secondary" : "Check our socials"
             }
         },
+        "preRegistration": {
+            "title": "DO MISSIONS. EARN TIME. TAKE CONTROL.",
+            "subtitle": "Pre-Registration",
+            "description": "Get early access to Konecta and be the first to test, earn, and co-own.",
+            "buttons": {
+                "primary": "Let's go!",
+                "secondary": "Chat with Kami"
+            }
+        },
+        "showcase": {
+            "title": "Konecta experience"
+        },
         "about" : {
-            "title" : "In your control, secured by the community",
-            "subtitle" : "Decentralizing 1 calendar at a time",
-            "description" : "Protocol on-boarding dApps to unify users calendars in one protocol, owned and controlled by DAO. Starting by our own products, we have a calendar centered dApp to connect with creators, educators, artists, therapists, lawyers, lecturers and much more.",
+            "title" : "IN YOUR CONTROL, SECURED BY THE COMMUNITY",
+            "subtitle" : "Personal, decentralized, and intuitive",
+            "description" : "The features of KonectA focus on allowing users to easily find and connect with content creators and their desired content, providing a personalized experience that is tailored to their interests and preferences.",
             "cards" : [
                 {
                     "title": "Personal calendar",
                     "description": "Imagine using your personal calendar in multiple applications without any hazzle."
                 },
                 {
-                    "title": "Many dApps, 1 calendar",
-                    "description": "Imagine Konecta Webapp, a Web3 GCal, DSCVR and your favorite dApps, all with your events, they are everywhere."
+                    "title": "Content filter",
+                    "description": "Customize the menu by applying filters based on language, course specialty, event time and day, and number of attendees."
                 },
                 {
-                    "title": "Secured by the community",
-                    "description": "Your data is safe. Konecta DAO, the one you belong to, will be the gatekeeper that control and protect your data."
+                    "title": "Content search",
+                    "description": "Search for specific content like on YouTube and schedule live events with creators in your selected interests."
                 }
             ]
         },
@@ -73,9 +106,79 @@
                 },
                 {
                     "name": "FAQ",
-                    "link": "https://www.google.com"
+                    "link": "https://chatgpt.com/g/g-S0vONPiGL-kami"
                 }
             ]
+        },
+        "team": {
+            "title": "Meet the team",
+            "subtitle": "We are a team of passionate individuals who are dedicated to creating a platform that empowers users to connect with content creators and their desired content.",
+            "members": [
+                {
+                  "name": "Alejandro García",
+                  "role": "Founder",
+                  "image": "/team/agarcia.jpg",
+                  "description": "John is a visionary leader with over 15 years of experience in the tech industry.",
+                  "x": "https://x.com",
+                  "linkedin": "https://linkedin.com"
+                },
+                {
+                  "name": "Ricardo Capuz",
+                  "role": "Strategist & Co-Founder",
+                  "image": "/team/rcapuz.jpg",
+                  "description": "Project's booster. Problem solver and creative thinker always tinkering.",
+                  "x": "https://x.com/capuzr",
+                  "linkedin": "https://www.linkedin.com/in/capuzr"
+                },
+                {
+                  "name": "Dawid",
+                  "role": "Investor & Co-Founder",
+                  "image": "/team/d.jpg",
+                  "description": "Michael leads the marketing team, ensuring effective communication with users.",
+                  "x": "https://x.com",
+                  "linkedin": "https://linkedin.com"
+                },
+                {
+                  "name": "Sagar Shah",
+                  "role": "CTO",
+                  "image": "/team/sshah.jpg",
+                  "description": "Development leader of the team coding Konecta WebApp and Protocol.",
+                  "x": "https://x.com",
+                  "linkedin": "https://linkedin.com"
+                },
+                {
+                  "name": "Jesús Pérez",
+                  "role": "Dev & Video maker",
+                  "image": "/team/jperez.png",
+                  "description": "Versatile creator: Apps, videos, music, games, and digital content.",
+                  "x": "https://x.com/dMegalinker",
+                  "linkedin": "https://www.linkedin.com/in/jesús-pérez-82b9a2136"
+                },
+                {
+                  "name": "Dmytro Dintsen",
+                  "role": "Designer",
+                  "image": "/team/ddintsen.jpg",
+                  "description": "Jane is a technical expert with deep knowledge in decentralized applications.",
+                  "x": "https://x.com",
+                  "linkedin": "https://linkedin.com"
+                },
+                {
+                  "name": "Daniel Granado",
+                  "role": "Designer",
+                  "image": "/team/dgranado.jpg",
+                  "description": "Michael leads the marketing team, ensuring effective communication with users.",
+                  "x": "https://x.com",
+                  "linkedin": "https://linkedin.com"
+                },
+                {
+                  "name": "Laura",
+                  "role": "Illustrator",
+                  "image": "l.jpg",
+                  "description": "John is a visionary leader with over 15 years of experience in the tech industry.",
+                  "x": "https://x.com",
+                  "linkedin": "https://linkedin.com"
+                }
+              ]
         }
     }
 }

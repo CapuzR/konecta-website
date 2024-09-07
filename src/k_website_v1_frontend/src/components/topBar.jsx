@@ -12,33 +12,25 @@ export const TopBar = () => {
     const data = t('home.appBar.buttons');
 
     return (
-        <Grid container justifyContent="center">
+        <Grid container justifyContent="center" spacing={0}>
             <Grid item container xs={12}>
-                <Grid item container xs={2} justifyContent="center" alignItems="center">
-                    <Grid item xs={12} >
+                <Grid item container xs={3} justifyContent="center" alignItems="center">
+                    <Grid item xs={12}>
                         <img 
                             src="./konectaLogo.png"
                             alt="Logo"
-                            style={{ width: "58%", height: "auto", margin: 0  }}
+                            style={{ width: "41%", height: "auto", margin: 0  }}
                         />
                     </Grid>
                 </Grid>
-                <Grid item container xs={7}>
+                <Grid item container xs={6}>
                     <Grid item container xs={12} justifyContent="center" alignItems="center">
                         <Menu />
                     </Grid>
                 </Grid>
-                <Grid item container xs={3}>
-                    {/* <Grid item container xs={6} alignItems="center">
-                        <Button text={data.login} type="plain" />
-                    </Grid>
-                    <Grid item container xs={6} alignItems="center">
-                        <Button text={data.signup} type="bordered" />
-                    </Grid> */}
-                    <Grid item container xs={6} alignItems="center">
-                    </Grid>
-                    <Grid item container xs={6} alignItems="center">
-                        <Button text="Docs soon" type="bordered" link="#" target="top" />
+                <Grid item container xs={3} justifyContent="right">
+                    <Grid item container xs={6} alignItems="center" justifyContent="right">
+                        <Button text={data.pre.name} link={data.pre.link} target={data.pre.target} type="bordered" />
                     </Grid>
                 </Grid>
             </Grid>

@@ -11,15 +11,15 @@ export function MediaCard({ title, description, image }) {
     <Card 
         sx={{ 
             width: 345, 
-            borderRadius: 
-            "16px", background: 
-            "linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.00) 100%)"
+            border: "1px solid rgba(255, 255, 255, 0.1);",
+            borderRadius: "16px", 
+            background: "linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.00) 100%)"
         }}
     >
         <CardMedia
             sx={{ height: 130 }}
             image={image}
-            title="green iguana"
+            title=""
         />
         <CardContent sx={{padding: 3}}>
             <Grid container spacing={2}>

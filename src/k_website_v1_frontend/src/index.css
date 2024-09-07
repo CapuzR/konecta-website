@@ -1,6 +1,7 @@
 #root {
-  background-color: #0A0118;
-  background-image: url(/src/k_website_v1_frontend/assets/background.jpg);
+  background-size: cover;
+  background: #0A0118,
+  radial-gradient(circle 20px at 10% 10%, #2a0b43 10%, transparent 70%);
 }
 
 .rotating-logo {

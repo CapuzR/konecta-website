@@ -1,0 +1,34 @@
+/* Floating animation */
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Adjust this value for higher/lower float */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the floating effect */
+  .floating-svg-mobile {
+    width: 400px; /* Adjust size as needed */
+    height: auto;
+    animation: float 3s ease-in-out infinite;
+    max-height: 400px;
+  }
+
+  /* Apply the floating effect */
+  .floating-svg-desktop {
+    width: 600px; /* Adjust size as needed */
+    height: auto;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  /* Fading transitions */
+  .svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

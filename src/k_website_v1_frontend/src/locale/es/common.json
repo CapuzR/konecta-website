@@ -37,6 +37,15 @@
                 "secondary" : "Entra en contacto"
             }
         },
+        "preRegistration": {
+            "title": "Pre registro",
+            "subtitle": "Sé el primero en saber",
+            "description": "Obtenga acceso temprano a Konecta y sea el primero en conocer nuestras últimas actualizaciones.",
+            "buttons": {
+                "primary": "Pre regsístrate",
+                "secondary": "Entra en contacto"
+            }
+        },
         "about" : {
             "title" : "En tu control, asegurado por la comunidad",
             "subtitle" : "Decentralizando 1 calendario a la vez",

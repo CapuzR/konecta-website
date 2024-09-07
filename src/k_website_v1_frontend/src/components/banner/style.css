@@ -1,0 +1,16 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Ensures no content overflows the container */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* Create the fade effect */
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}

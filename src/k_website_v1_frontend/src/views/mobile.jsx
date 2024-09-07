@@ -1,23 +1,41 @@
 import * as React from "react";
 import { Grid } from "@mui/material";
+import { TopBar } from "../components/topBar.jsx";
+import { Banner } from "../components/banner/banner.jsx";
+import { About } from "../components/about/about.jsx";
+import { Prefooter } from "../components/prefooter.jsx";
+import { Footer } from "../components/footer.jsx";
 import Bg from "../../assets/background.jpg";
-import { Typography } from "../components/typography.jsx";
-import Logo from "../../assets/blueLogo.png";
+import { PreRegistration } from "../components/preRegistration/preRegistration.jsx";
+import { Team } from "../components/team/team.jsx";
 
-export const Mobile = () => { 
+export const Mobile = () => {
+
   return (
-      <Grid container spacing={0} sx={{ width: "100%", height: "100vh" }} justifyContent="center" alignItems="center">
-        <Grid item container xs={12}>
-            <img src={Logo} className="rotating-logo"/>
+    <>
+      <Grid container sx={{ padding: "2% 13% 0 13%", backgroundImage: Bg }}>
+        <Grid item xs={12}>
+          <TopBar />
         </Grid>
-        <Grid item container xs={12} spacing={2}>
-            <Grid item container xs={12} justifyContent="center">
-              <Typography  text="mobile" size="medium"/>
-            </Grid>
-            <Grid item container xs={12} justifyContent="center">
-              <Typography  text="SOON"/>
-            </Grid>
+        <Grid item xs={12}>
+          <Banner />
+        </Grid>
+        <Grid item xs={12} id="preRegistration" style={{ zIndex: 1 }}>
+          <PreRegistration />
+        </Grid>
+        <Grid item xs={12} id="about" style={{ zIndex: 1 }}>
+          <About />
+        </Grid>
+        <Grid item xs={12} id="team" style={{ zIndex: 1 }}>
+          <Team />
+        </Grid>
+        <Grid item xs={12} style={{ zIndex: 1 }}>
+          <Prefooter/>
+        </Grid>
+        <Grid item xs={12} style={{ zIndex: 1 }}>
+          <Footer/>
         </Grid>
       </Grid>
+    </>
   );
 };
