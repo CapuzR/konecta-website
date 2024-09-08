@@ -1,15 +1,15 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import { Menu } from "../menu/menu.jsx";
-import { Button } from "../button.jsx";
-import { Typography } from "../typography.jsx";
-import { MediaCard } from "../card.jsx";
+import { Menu } from "../../components/menu/menu.jsx";
+import { Button } from "../../components/button.jsx";
+import { Typography } from "../../components/typography.jsx";
+import { MediaCard } from "../../components/card.jsx";
 import { useTranslation } from 'react-i18next';
-import Asset1 from '../../../assets/about_asset_1.svg';
-import Asset2 from '../../../assets/about_asset_2.svg';
-import Asset3 from '../../../assets/about_asset_3.svg';
-import { Showcase } from "../showcase.jsx";
-import { Line } from "../line.jsx";
+import Asset1 from '../../../../assets/about_asset_1.svg';
+import Asset2 from '../../../../assets/about_asset_2.svg';
+import Asset3 from '../../../../assets/about_asset_3.svg';
+import { Showcase } from "../../components/showcase.jsx";
+import { Line } from "../../components/line.jsx";
 
 
 export const About = () => {

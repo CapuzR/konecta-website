@@ -1,13 +1,13 @@
 import * as React from "react";
 import { Grid } from "@mui/material";
-import { TopBar } from "../components/topBar.jsx";
-import { Banner } from "../components/banner/banner.jsx";
-import { About } from "../components/about/about.jsx";
-import { Prefooter } from "../components/prefooter.jsx";
-import { Footer } from "../components/footer.jsx";
+import { TopBar } from "../pages/topBar/mobile.jsx";
+import { Banner } from "../pages/header/desktop.jsx";
+import { About } from "../pages/about/desktop.jsx";
+import { Prefooter } from "../pages/preFooter/desktop.jsx";
+import { Footer } from "../pages/footer/desktop.jsx";
 import Bg from "../../assets/background.jpg";
-import { PreRegistration } from "../components/preRegistration/preRegistration.jsx";
-import { Team } from "../components/team/team.jsx";
+import { PreRegistration } from "../pages/preRegistration/desktop.jsx";
+import { Team } from "../pages/team/desktop.jsx";
 
 export const Mobile = () => {
 

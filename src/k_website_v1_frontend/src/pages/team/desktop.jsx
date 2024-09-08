@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Card, Typography, Avatar, Divider, Container } from '@mui/material';
-import { Button } from '../button';
 import XIcon from '@mui/icons-material/X';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedIn from '@mui/icons-material/LinkedIn';
 import { useTranslation } from 'react-i18next';
 
@@ -49,16 +49,24 @@ export const Team = () => {
                 {member.description}
               </Typography>
                 <Grid item container spacing={2} xs={12} alignItems="center" justifyContent="space-around">
-                    <Grid item container xs={6} alignItems="center" justifyContent="right">
+                    <Grid item container xs={ member.github ? 4 : 6 } alignItems="center" justifyContent="right">
                         <a href={member.x} target="_blank" style={{ textDecoration: "none" }}>
                             <XIcon sx={{ color: "#fff", fontSize: "20px" }}/>
                         </a>
                     </Grid>
-                    <Grid item container xs={6} alignItems="center" justifyContent="left">
+                    <Grid item container xs={ member.github ? 4 : 6 } alignItems="center" justifyContent={ member.github ? "center" : "left" }>
                         <a href={member.linkedin} target="_blank" style={{ textDecoration: "none" }}>
                             <LinkedIn sx={{ color: "#fff", fontSize: "20px" }}/>
                         </a>
                     </Grid>
+                    {
+                        member.github &&
+                        <Grid item container xs={4} alignItems="center" justifyContent="left">
+                            <a href={member.github} target="_blank" style={{ textDecoration: "none" }}>
+                                <GitHubIcon sx={{ color: "#fff", fontSize: "20px" }}/>
+                            </a>
+                        </Grid>
+                    }
                 </Grid>
             </Card>
           </Grid>

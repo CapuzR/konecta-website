@@ -1,8 +1,8 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import { Menu } from "./menu/menu.jsx";
-import { Button } from "./button.jsx";
-import { Line } from "./line.jsx";
+import { Menu } from "../../components/menu/menu.jsx";
+import { Button } from "../../components/button.jsx";
+import { Line } from "../../components/line.jsx";
 import { useTranslation } from 'react-i18next';
 
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Grid } from "@mui/material";
-import { Line } from '../line';
-import { Typography } from '../typography';
+import { Line } from '../../components/line';
+import { Typography } from '../../components/typography';
 import { useTranslation } from 'react-i18next';
-import { Button } from '../button';
+import { Button } from '../../components/button';
 import XIcon from '@mui/icons-material/X';
 
 export const PreRegistration = () => {

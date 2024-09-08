@@ -1,10 +1,9 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import { Menu } from "./menu/menu.jsx";
-import { Button } from "./button.jsx";
-import { Typography } from "./typography.jsx";
+import { Menu } from "../../components/menu/menu.jsx";
+import { Typography } from "../../components/typography.jsx";
 import XIcon from '@mui/icons-material/X';
-import { Line } from "./line.jsx";
+import { Line } from "../../components/line.jsx";
 
 
 export const Footer = () => {

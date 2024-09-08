@@ -1,0 +1,33 @@
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+  
+    .topbar .menu-icon {
+      display: block; /* Show the hamburger menu */
+    }
+  
+    .topbar .nav-links {
+      display: none; /* Hide the normal navigation links */
+    }
+  
+    .hamburger {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 24px;
+    }
+  
+    .hamburger div {
+      width: 30px;
+      height: 3px;
+      background-color: #fff; /* Adjust color as per the theme */
+      border-radius: 5px;
+    }
+  }
+  

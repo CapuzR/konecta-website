@@ -42,8 +42,16 @@
             "subtitle" : "Services that matters to you",
             "description" : "Find out what's possible with Konecta! Connect with creators, educators, artists, therapists, lawyers, lecturers and much more.",
             "buttons" : {
-                "primary" : "Apply early",
-                "secondary" : "Check our socials"
+                "primary" : {
+                    "name": "Pre-Register",
+                    "link": "https://pre.konecta.one",
+                    "target": "_blank"
+                },
+                "secondary" : {
+                    "name": "Check our socials",
+                    "link": "https://x.com/konecta_DAO",
+                    "target": "_blank"
+                }
             }
         },
         "preRegistration": {
@@ -82,8 +90,16 @@
             "subtitle" : "Start your Konecta journey",
             "description" : "Learn everything you need to know, from beginner to master.",
             "buttons" : {
-                "primary" : "Apply early",
-                "secondary" : "Check our socials"
+                "primary" : {
+                    "name": "Pre-Register",
+                    "link": "https://pre.konecta.one",
+                    "target": "_blank"
+                },
+                "secondary" : {
+                    "name": "Check our socials",
+                    "link": "https://x.com/konecta_DAO",
+                    "target": "_blank"
+                }
             }
         },
         "footer" : {
@@ -128,7 +144,8 @@
                   "image": "/team/rcapuz.jpg",
                   "description": "Project's booster. Problem solver and creative thinker always tinkering.",
                   "x": "https://x.com/capuzr",
-                  "linkedin": "https://www.linkedin.com/in/capuzr"
+                  "linkedin": "https://www.linkedin.com/in/capuzr",
+                  "github": "https://github.com/CapuzR"
                 },
                 {
                   "name": "Dawid",
@@ -144,7 +161,8 @@
                   "image": "/team/sshah.jpg",
                   "description": "Development leader of the team coding Konecta WebApp and Protocol.",
                   "x": "https://x.com",
-                  "linkedin": "https://linkedin.com"
+                  "linkedin": "https://linkedin.com",
+                  "github": "https://github.com/sagcryptoicp"
                 },
                 {
                   "name": "Jesús Pérez",
@@ -152,7 +170,8 @@
                   "image": "/team/jperez.png",
                   "description": "Versatile creator: Apps, videos, music, games, and digital content.",
                   "x": "https://x.com/dMegalinker",
-                  "linkedin": "https://www.linkedin.com/in/jesús-pérez-82b9a2136"
+                  "linkedin": "https://www.linkedin.com/in/jesús-pérez-82b9a2136",
+                  "github": "https://github.com/megalinker"
                 },
                 {
                   "name": "Dmytro Dintsen",

@@ -1,9 +1,9 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import { Button } from "../button.jsx";
-import { Typography } from "../typography.jsx";
+import { Button } from "../../components/button.jsx";
+import { Typography } from "../../components/typography.jsx";
 import { useTranslation } from 'react-i18next';
-import { BannerImage } from "./bannerImage.jsx";
+import { BannerImage } from "../../components/bannerImage/bannerImage.jsx";
 
 
 export const Banner = () => {
@@ -25,10 +25,10 @@ export const Banner = () => {
             </Grid>
             <Grid item container xs={12} justifyContent="space-around">
                 <Grid item container xs={6} justifyContent="right">
-                    <Button text={data.buttons.primary} type="primary" link="https://forms.gle/Pn4BZsphRUqcxkXD9"  />
+                    <Button text={data.buttons.primary.name} type="primary" link={data.buttons.primary.link} target={data.buttons.primary.target}  />
                 </Grid>
                 <Grid item container xs={6} justifyContent="left">
-                    <Button text={data.buttons.secondary} type="filled" link="https://x.com/konectadao" />
+                    <Button text={data.buttons.secondary.name} type="filled" link={data.buttons.secondary.link} target={data.buttons.secondary.target} />
                 </Grid>
             </Grid>
         </Grid>
